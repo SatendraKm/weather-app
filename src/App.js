@@ -2,7 +2,7 @@ import Weather from "./components/weather";
 
 function App() {
   return (
-    <div>
+    <div className="font-sans">
       <Weather />
     </div>
   );

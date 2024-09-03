@@ -5,7 +5,7 @@ const Search = ({ search, setSearch, handleSearch }) => {
     <div className="flex justify-center mb-4">
       <input
         type="text"
-        className="w-full md:w-full lg:w-2/3 xl:w-2/4 p-2 pl-4 text-lg text-gray-700 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-600"
+        className="w-full md:w-full lg:w-2/3 xl:w-2/4 p-2 pl-4 text-md text-gray-700 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-600"
         placeholder="Enter City Name"
         name="search"
         value={search}
